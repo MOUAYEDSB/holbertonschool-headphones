@@ -210,13 +210,13 @@ button:hover, button:active {
 }
 
 .what-we-do h1 {
-    color: #333; /* Set a color for the heading */
+    color: #071629; /* Set a color for the heading */
     font-size: 32px; /* Adjust font size for the heading */
     margin-bottom: 50px; /* Add margin at the bottom for spacing */
 }
 
 .what-we-do p {
-    color: #666; /* Set a color for the paragraph */
+    color: #071629; /* Set a color for the paragraph */
     font-size: 16px; /* Adjust font size for the paragraph */
     line-height: 1.6; /* Adjust line height for better readability */
 }
@@ -230,12 +230,12 @@ button:hover, button:active {
 }
 
 .icons .one-icon h1 {
-    color: #333;
+    color: #071629;
     font-size: 18px;
 }
 
 .icons .one-icon  p {
-    color: #666;
+    color: #071629;
     font-size: 14px;
 }
 .one-icon {
