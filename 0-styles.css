@@ -6,7 +6,7 @@ html, body, h1, h2, h3, p, ul, li, button {
 
 /* Variables */
 :root {
-	--text-color: #FF6565;
+    --text-color: #FF6565;
     --link-hover-color: #FF6565;
     --button-hover-opacity: 0.9;
     --max-content-width: 1000px;
@@ -56,14 +56,13 @@ a:hover, a:active {
 body {
     margin: 0;
     padding: 0;
-	background-size: cover;
-	background-repeat: repeat-x;
+    background-size: cover;
+    background-repeat: repeat-x;
     background-image: url('images/headphones_hero_1.jpg'); /* Add your image path */
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
-	font-family: "Your Desired Font", sans-serif; /* Replace "Your Desired Font" with the actual font name */
-
+    font-family: "Your Desired Font", sans-serif; /* Replace "Your Desired Font" with the actual font name */
 }
 
 .hero {
@@ -72,7 +71,7 @@ body {
 
 h1 {
     font-size: 2em;
-	padding-top: 15%;
+    padding-top: 15%;
     margin-bottom: 20px;
 }
 
@@ -80,6 +79,7 @@ p {
     font-size: 1.2em;
     margin-bottom: 30px;
 }
+
 button {
     background-color: var(--link-hover-color);
     color: white;
@@ -103,11 +103,6 @@ button:hover, button:active {
     margin: 30px auto; /* Center the paragraph within its container */
 }
 
-
-/* Mobile Version */
-/* ... (previous styles) */
-
-/* Mobile Version */
 @media screen and (max-width: 480px) {
     body {
         font-size: 16px;
@@ -121,6 +116,12 @@ button:hover, button:active {
         max-height: 30px; /* Adjust the max height of your logo */
     }
 
+    .menu-icon:hover + .menu-items,
+.menu-items:hover {
+    display: flex; 
+}
+
+    
     .menu-items {
         display: none; /* Initially hide the mobile navigation */
         flex-direction: column;
@@ -144,22 +145,23 @@ button:hover, button:active {
     .menu-items li {
         margin: 10px;
     }
-
+    
     .menu-icon {
         display: block; /* Display the menu icon on smaller screens */
         cursor: pointer;
-        font-size: 24px;
-        color: white;
+        font-size: 16px; /* Adjust the font size as needed */
+        color: rgb(19, 13, 13);
         position: absolute;
         top: 20px;
         right: 20px;
     }
+}
 
-    .menu-icon.active {
-        color: var(--link-hover-color); /* Change icon color when active */
-    }
 
-    .checkbox-input:checked + .menu-items {
-        display: flex; /* Show mobile nav when checkbox is checked */
+
+
+@media screen and (min-width: 480px) {
+    .menu-icon {
+        display: none; /* Display the menu icon on smaller screens */
     }
 }
