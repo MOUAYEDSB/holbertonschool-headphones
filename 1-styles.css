@@ -196,7 +196,7 @@ button:hover, button:active {
 /* Section-2 Styles */
 .section-2 {
     background-color: #F0F0F0; /* Set a background color for section-2 */
-    padding: 5px 20px; /* Add padding for spacing */
+    padding: 10px 30px; /* Add padding for spacing */
 
     display: flex;
     flex-direction: column;
@@ -205,19 +205,19 @@ button:hover, button:active {
 }
 
 .what-we-do {
-    max-width: 800px; /* Adjust max-width as needed for your content */
+    max-width: 1000px; /* Adjust max-width as needed for your content */
     margin-bottom: 30px; /* Add margin at the bottom for spacing */
 }
 
 .what-we-do h1 {
     color: #333; /* Set a color for the heading */
-    font-size: 2em; /* Adjust font size for the heading */
+    font-size: 32px; /* Adjust font size for the heading */
     margin-bottom: 50px; /* Add margin at the bottom for spacing */
 }
 
 .what-we-do p {
     color: #666; /* Set a color for the paragraph */
-    font-size: 1.2em; /* Adjust font size for the paragraph */
+    font-size: 16px; /* Adjust font size for the paragraph */
     line-height: 1.6; /* Adjust line height for better readability */
 }
 
@@ -231,15 +231,17 @@ button:hover, button:active {
 
 .icons .one-icon h1 {
     color: #333;
+    font-size: 18px;
 }
 
 .icons .one-icon  p {
     color: #666;
+    font-size: 14px;
 }
 .one-icon {
     text-align: center;
     width: 200px; /* Set a fixed width for each icon container, adjust as needed */
-    margin: 20px; /* Add some margin around each icon container */
+    margin: 60px; /* Add some margin around each icon container */
 }
 
 .one-icon img {
